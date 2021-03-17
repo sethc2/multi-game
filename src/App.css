@@ -146,6 +146,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.gameRunnerAnswers > button {
+  height: 100%;
+  width: 100%;
+}
+
 .timerGone {
   width: 100%;
   background: lightgray;
@@ -158,6 +163,11 @@
 
 .possibleAnswerContainer {
   font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .problemAnswerQuestion {
